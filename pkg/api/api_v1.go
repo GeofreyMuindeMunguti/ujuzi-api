@@ -1,26 +1,15 @@
 package api
 
 import (
-	"net/http"
-	"src/pkg/api/user"
-	"strings"
-
 	"github.com/gorilla/mux"
+	"src/pkg/app/user"
+	"src/pkg/common/helpers"
 )
 
 func Router() *mux.Router {
 	router := mux.NewRouter()
 
-	mount(router, "/users", user.Router())
+	helpers.Mount(router, "/users", user.Router())
 
 	return router
-}
-
-func mount(r *mux.Router, path string, handler http.Handler) {
-	r.PathPrefix(path).Handler(
-		http.StripPrefix(
-			strings.TrimSuffix(path, "/"),
-			handler,
-		),
-	)
 }

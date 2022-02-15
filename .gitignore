@@ -8,3 +8,4 @@
 # Testing
 *.test
 *.tmp
+.idea*
