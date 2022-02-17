@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac01941f-83a9-41e8-b137-99b2136eb518" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/lib/go-1.17" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.18beta1" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,7 +53,7 @@
       <recent name="$PROJECT_DIR$/pkg/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build ujuzi-api">
+  <component name="RunManager" selected="Go Build.go build fuzz">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="ujuzi-api" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,6 +61,24 @@
       <package value="src" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build fuzz" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ujuzi-api" />
+      <working_directory value="$PROJECT_DIR$/fuzz" />
+      <kind value="PACKAGE" />
+      <package value="fuzz" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/fuzz/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build generics" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ujuzi-api" />
+      <working_directory value="$PROJECT_DIR$/generics" />
+      <kind value="PACKAGE" />
+      <package value="generics" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/generics/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build src/cmd/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -94,6 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build fuzz" />
+        <item itemvalue="Go Build.go build generics" />
         <item itemvalue="Go Build.go build ujuzi-api" />
         <item itemvalue="Go Build.go build src/cmd/server" />
       </list>
